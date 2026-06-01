@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer high-tech circular radar ring representing AI processing -->
+    <path
+        android:pathData="M 54 20 A 34 34 0 1 1 53.9 20"
+        android:strokeWidth="1.5"
+        android:strokeColor="#24A0A4"
+        android:strokeLineCap="round" />
+
+    <!-- Sleek Glowing Futuristic letter T -->
+    <path
+        android:pathData="M30,34 L78,34 L78,44 L59,44 L59,74 L49,74 L49,44 L30,44 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="30"
+                android:endX="54"
+                android:endY="78"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00E5FF" />
+                <item android:offset="1.0" android:color="#00838F" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Core AI high-tech node dot (bright glowing white/cyan) -->
+    <path
+        android:pathData="M54,71 A 4 4 0 1 1 53.9 71"
+        android:fillColor="#FFFFFF" />
+        
+    <!-- Glowing Accent Flare on Top Crossbar -->
+    <path
+        android:pathData="M36,34 L48,34"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+</vector>
